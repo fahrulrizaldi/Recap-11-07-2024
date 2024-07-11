@@ -5,7 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widht=device-width, initial-scale=1.0">
     <title>document</title>
-   
+    <!-- ini CSS internal -->
+     <style>
+        P {
+            color : red;
+        }
+     </style>
+     <link rel="stylesheet" href="CSS/styles.css">
 </head>
-<Body></Body>
+<Body>
+    <!-- ini Css Inline-->
+    <header style="background-color: aqua ; padding: 10px;
+    display: flex;justify-content: space-between;">
+        <h1>Ini Header</h1>
+    </header>
+
+
+    <article>
+        <p> Ini Konten ya</p>
+        <button onclick="saklarlampu()">saklar lampu</button>
+    </article>
+
+    <footer>
+        <h2> ini Footer</h2>
+    </footer>
+    ,<script>
+        function saklarlampu(){
+            alert('menyala');
+
+        }
+    </script>
+
+</Body>
 </html>
